@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Jaime200/login-template#readme",
   "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "webpack": "^5.71.0",
     "webpack-cli": "^4.9.2",
     "webpack-devserver": "^0.0.6"
