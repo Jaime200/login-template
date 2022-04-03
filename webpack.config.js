@@ -38,5 +38,13 @@ module.exports ={
             filename:'[name].css'
         })
     ],
-    devServer : {},
+    devServer : {
+     
+        historyApiFallback: true,
+        static: {
+          directory: path.join(__dirname, 'public'),
+          },
+        compress: true,
+        port: 3005,
+      }
 }
