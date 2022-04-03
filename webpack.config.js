@@ -10,7 +10,10 @@ module.exports ={
         extensions : ['js', 'jsx']
     },
     mode: 'development',
-    module : {},
+    module : {
+        rules : [
+        ]
+    },
     plugins : [],
     devServer : {},
 }
