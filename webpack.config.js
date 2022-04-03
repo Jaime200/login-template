@@ -6,7 +6,9 @@ module.exports ={
         filename: 'bundle.js',
         publicPath: '/'
     },
-    resolve : {},
+    resolve : {
+        extensions : ['js', 'jsx']
+    },
     mode: 'development',
     module : {},
     plugins : [],
